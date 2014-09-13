@@ -64,6 +64,8 @@ a:hover { text-decoration: none; }
     margin: 0 auto;
     text-align: center;
     color: #fff;
+    background: url(../img/slider1.jpg) center center no-repeat;
+    background-size: cover;
 }
 
 .inner-bg {

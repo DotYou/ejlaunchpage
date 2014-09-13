@@ -5,9 +5,9 @@ jQuery(document).ready(function() {
         Background slideshow
     */
     $('.coming-soon').backstretch([
-      "/img/slider1.jpg"
-    , "/img/slider2.jpg"
-    ], {duration: 3000, fade: 750});
+      "img/slider1.jpg"
+    , "img/slider2.jpg"
+    ], {duration: 5000, fade: 750});
 
     /*
         Countdown initializer
