@@ -6,9 +6,11 @@ jQuery(document).ready(function() {
     */
     if (navigator.userAgent.match(/(iPod|iPhone|iPad)/) === null) {
         $('.coming-soon').backstretch([
-          "img/slider1.jpg"
-        , "img/slider2.jpg"
-        ], {duration: 5000, fade: 750});
+          "img/slider1.jpg",
+          "img/slider2.jpg",
+          "img/slider3.jpg",
+          "img/slider4.jpg"
+        ], {duration: 4000, fade: 750});
     }
 
     /*
