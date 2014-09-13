@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    if (jQuery(window).width() > 1000) {
+    if (navigator.userAgent.match(/(iPod|iPhone|iPad)/) === null) {
         $('.coming-soon').backstretch([
           "img/slider1.jpg"
         , "img/slider2.jpg"
