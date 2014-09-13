@@ -66,6 +66,7 @@ a:hover { text-decoration: none; }
     color: #fff;
     background: url(../img/slider1.jpg) center center no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 .inner-bg {
