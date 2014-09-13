@@ -7,7 +7,7 @@ jQuery(document).ready(function() {
     $('.coming-soon').backstretch([
       "img/slider1.jpg"
     , "img/slider2.jpg"
-    ], {duration: 5000, fade: 750});
+    ], {duration: 5000});
 
     /*
         Countdown initializer
