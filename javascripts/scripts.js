@@ -4,14 +4,12 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    if (navigator.userAgent.match(/(iPod|iPhone|iPad)/) === null) {
-        $('.coming-soon').backstretch([
-          "img/slider1.jpg",
-          "img/slider2.jpg",
-          "img/slider3.jpg",
-          "img/slider4.jpg"
-        ], {duration: 4000, fade: 750});
-    }
+    $('.coming-soon').backstretch([
+      "img/slider1.jpg",
+      "img/slider2.jpg",
+      "img/slider3.jpg",
+      "img/slider4.jpg"
+    ], {duration: 4000, fade: 750});
 
     /*
         Countdown initializer
